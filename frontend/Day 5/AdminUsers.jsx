@@ -58,8 +58,8 @@ const AdminUsers = () => {
       <div className="side-navbar">
         <ul>
         <li><Link to="/AdminDashboard">Dashboard</Link></li>
-          <li><Link to="/AdminAnalytics">Analytics</Link></li>
-          <li><Link to="/AdminReports">Reports</Link></li>
+          <li><Link to="/AdminAnalytics">AdminAnalytics</Link></li>
+          <li><Link to="/AdminReport">AdminReport</Link></li>
         </ul>
       </div>
 

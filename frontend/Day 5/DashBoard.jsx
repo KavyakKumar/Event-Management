@@ -18,7 +18,7 @@ const Dashboard = () => {
           
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/eventform">Event Form</Link></li>
-          <li><Link to="/schedule-appointment">Schedule Appointment</Link></li>
+          <li><Link to="/ScheduleAppointment">ScheduleAppointment</Link></li>
           <li><button onClick={handleLogout}>Logout</button></li>
         </ul>
       </nav>
@@ -28,14 +28,26 @@ const Dashboard = () => {
         <ul>
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/eventform">EventForm</Link></li>
-          <li><Link to="/schedule-appointment">Schedule Appointment</Link></li>
+          <li><Link to="/ScheduleAppointment">ScheduleAppointment</Link></li>
         </ul>
       </div>
 
       {/* Main Content */}
       <div className="main-content">
-        {/* Content goes here */}
-      </div>
+        <h2>Welcome to Your Dashboard</h2>
+        <div className="card">
+          <h3>Recent Events</h3>
+          <p>No recent events</p>
+        </div>
+        <div className="card">
+          <h3>Upcoming Appointments</h3>
+          <p>No upcoming appointments</p>
+        </div>
+        <div className="card">
+          <h3>Notifications</h3>
+          <p>No notifications</p>
+        </div>
+      </div> 
 
       {/* Footer */}
       <footer className="footer">

@@ -1,0 +1,210 @@
+/* scheduleAppointment.css */
+
+.main-content {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .sidebar {
+    float: left;
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer {
+    clear: both;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .side-navbar {
+  background-color: #f4f4f4;
+  width: 200px;
+  padding: 20px;
+  position: fixed;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+}
+
+.side-navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-navbar ul li {
+  margin-bottom: 10px;
+}
+
+.side-navbar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.side-navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Top Navbar */
+.top-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .top-navbar .logo {
+    font-size: 20px;
+  }
+  
+  .top-navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .top-navbar .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .top-navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .top-navbar .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Side Navbar */
+  .side-navbar {
+    background-color: #f4f4f4;
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 90px;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .side-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-navbar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .side-navbar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .side-navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 220px; /* Adjust based on the width of side navbar */
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  

@@ -10,8 +10,8 @@ const Navbar = () => {
         <h2>Saphire Events</h2>
       </div>
       <ul className="nav-links">
-      <li><Link to="/HomePage">HomePage</Link></li>
-        <li><a href="Services">Services</a></li>
+      {/* <li><Link to="/HomePage">HomePage</Link></li> */}
+      <li><Link to="/services">Services</Link></li>
         <li><a href="Events">Events</a></li>
         <li><Link to="/Login">Login</Link></li>
         <li><Link to="/Register">SignUp</Link></li>

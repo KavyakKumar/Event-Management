@@ -1,6 +1,6 @@
 import '../assets/styles.css';
-import Navbar from './Navbar'; // Assuming Navbar.jsx is in the same folder
-import Footer from './Footer'; // Assuming Footer.jsx is in the same folder
+import Navbar from './Navbar'; 
+import Footer from './Footer'; 
 import  { lazy, Suspense } from 'react';
 import Slider from './Slider';
 
@@ -9,17 +9,6 @@ import Slider from './Slider';
 // const Navbar = lazy(() => import('./Navbar')); // Lazy loading Navbar component
 // const Footer = lazy(() => import('./Footer')); // Lazy loading Footer component
 const Loading = lazy(() => import('./Loading')); // Lazy loading Loading component
-
-// const SliderComponent = () => {
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 2000
-//   };
 
 const HomePage = () => {
   
@@ -72,6 +61,7 @@ const HomePage = () => {
       Other popular word processors, including Pages and Microsoft Word, have since adopted Lorem ipsum,as have many
       LaTeX packages, web content managers such as Joomla! and WordPress, and CSS libraries such as Semantic UI.
       </p>
+      
       <Footer />
       </Suspense>
     </div>

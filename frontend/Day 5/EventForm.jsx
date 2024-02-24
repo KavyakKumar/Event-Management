@@ -30,7 +30,7 @@ const EventForm = () => {
         <li><Link to="/DashBoard">DashBoard</Link></li>
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/eventform">Event Form</Link></li>
-          <li><Link to="/schedule-appointment">Schedule Appointment</Link></li>
+          <li><Link to="/ScheduleAppointment">ScheduleAppointment</Link></li>
           <li><button onClick={handleLogout}>Logout</button></li>
         </ul>
       </nav>
@@ -41,7 +41,7 @@ const EventForm = () => {
       <li><Link to="/DashBoard">DashBoard</Link></li>
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/eventform">Event Form</Link></li>
-          <li><Link to="/schedule-appointment">Schedule Appointment</Link></li>
+          <li><Link to="/ScheduleAppointment">ScheduleAppointment</Link></li>
         </ul>
       </div>
 
